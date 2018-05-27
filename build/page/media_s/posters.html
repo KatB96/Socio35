@@ -1,0 +1,107 @@
+
+<!-- - var nameServices = 'Туризм';--><!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8"/>
+    <base href="/"/>
+    <title>Социо35</title>
+    <meta name="viewport" content="width=device-width"/>
+    <link rel="stylesheet" media="all" href="/css/main_global.css"/>
+    <link rel="stylesheet" media="all" href="/css/pages/leisure_and_tourist.css">
+    <link rel="stylesheet" media="all" href="/css/pages/media_s.css">
+    <link href="//code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css" rel="stylesheet" type="text/css">
+  </head>
+  <body>
+    <header>
+      <div class="header-content">
+        <p>#социополис<span>35</span></p>
+        <div class="weather">
+          <p>Череповец, -4&#8451;</p>
+          <p>30 ноября, 19:15</p>
+        </div>
+      </div>
+      <div class="menu-content">
+        <ul>
+          <li> <a href="/">Главная</a></li>
+          <li> <a href="/page/page2.html">О проекте</a></li>
+          <li> <a href="/page/page2.html">Контакты</a></li>
+          <li> <a href="/page/page2.html">Поиск</a></li>
+        </ul>
+        <div class="mobile-menu-content">
+          <div aria-hidden="true" class="menu-icon fa fa-bars fa-2x"></div>
+          <ul class="m_menu-content">
+            <li> <a href="/">Главная</a></li>
+            <li> <a href="/page/page2.html">О проекте</a></li>
+            <li> <a href="/page/page2.html">Контакты</a></li>
+            <li> <a href="/page/page2.html">Поиск</a></li>
+          </ul>
+        </div>
+        <p class="logo">#социополис<span>35</span></p>
+      </div>
+    </header>
+    <section style="background:url(../../img/media_s/posters.png); background-repeat: no-repeat;  background-size: cover;" class="lat_services">
+      <div class="lat_services-wrap"><a href="/page/media_s/news.html"></a>
+        <div class="lat_services-title"><span>Афиши</span></div>
+        <div class="lat_services-content">
+          <div class="lat_services-list"><a href="/page/media_s/news.html" class="item-list1"><span>НОВОСТИ						</span></a><a href="/page/media_s/report.html" class="item-list1"><span>ОТЧЁТЫ</span></a><a href="/page/media_s/place.html" class="item-list1"><span>МЕСТА ПРОВЕДЕНИЯ МЕРОПРИЯТИЙ</span></a></div>
+          <input type="text" name="date" value="2018-05-20" class="calendar"><a href="/page/media_s/posters.html#" onclick="showA();" class="lat_services-button">Предложить афишу</a>
+          <div id="b"></div>
+          <div id="a">
+            <div id="windows"><a href="/page/media_s/posters.html#" onclick="hideA();" style="float: right;" class="pages">X</a>
+              <form class="forma">
+                <h2>ПРЕДЛОЖИТЬ АФИШУ</h2>
+                <fieldset>
+                  <p>Если Вы знаете о каком-либо мероприятии, которого нет на нашем портале, но оно будет проводиться в городе, смело предлагайте его!</p>
+                  <input id="header" name="header" type="text" placeholder="Название мероприятия" required="">
+                  <input id="date" name="date" type="text" placeholder="Дата" required="" class="calendar">
+                  <select>
+                    <option disabled>Место проведения мероприятия</option>
+                    <option>Бар</option>
+                    <option>ДК</option>
+                  </select>
+                  <input type="file" name="add_img" id="add_img" value="Добавить изображение" accept="image/jpeg,image/png">
+                  <div class="lat_services-button">Отправить</div>
+                </fieldset>
+              </form>
+            </div>
+          </div>
+          <div class="item-z"><a href="#t1" class="open_modal"><img src="img/media_s/t1.jpg" class="poster"></a>
+            <div id="t1" class="modal_div class1"><span class="modal_close">X</span>
+              <div class="wrap"> <img src="img/media_s/t1.jpg" class="poster">
+                <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt, veritatis, rem, quisquam commodi laboriosam sunt nostrum ut aspernatur nulla sed placeat. Porro eligendi asperiores, dolore.</p>
+              </div>
+            </div>
+            <div id="overlay"></div><a href="#t2" class="open_modal"> <img src="img/media_s/t2.jpg" class="poster"></a>
+            <div id="t2" class="modal_div"><span class="modal_close">X</span><img src="img/media_s/t2.jpg" class="poster"></div>
+            <div id="overlay"></div><a href="#t3" class="open_modal"> <img src="img/media_s/t3.jpg" class="poster"></a>
+            <div id="t3" class="modal_div"><span class="modal_close">X</span><img src="img/media_s/t3.jpg" class="poster"></div>
+            <div id="overlay"></div><a href="#t4" class="open_modal"> <img src="img/media_s/t4.jpg" class="poster"></a>
+            <div id="t4" class="modal_div"><span class="modal_close">X</span><img src="img/media_s/t4.jpg" class="poster"></div>
+            <div id="overlay"></div><a href="#t5" class="open_modal"> <img src="img/media_s/t5.jpg" class="poster"></a>
+            <div id="t5" class="modal_div"><span class="modal_close">X</span><img src="img/media_s/t5.jpg" class="poster"></div>
+            <div id="overlay"></div><a href="#t6" class="open_modal"> <img src="img/media_s/t6.jpg" class="poster"></a>
+            <div id="t6" class="modal_div"><span class="modal_close">X</span><img src="img/media_s/t6.jpg" class="poster"></div>
+            <div id="overlay"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer class="footer">
+      <div class="footer-content">
+        <div class="soc"><a href="https://vk.com/sociopolis35" aria-hidden="true" class="fa fa-vk fa-2x vk"></a><a href="#" aria-hidden="true" class="fa fa-facebook fa-2x facebook"></a><a href="http://www.thepictaram.club/instagram/chsu_media" aria-hidden="true" class="fa fa-instagram fa-2x instagram"></a><a href="#" aria-hidden="true" class="fa fa-twitter fa-2x twitter"></a></div>
+        <div class="footer-menu">
+          <ul>
+            <li><a href="/">Главная</a></li>
+            <li><a href="/page/page2.html">О проекте</a></li>
+            <li><a href="/page/page2.html">Контакты</a></li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+    
+    <script src="/js/all.js"></script>
+    <script src="/js/main.js"></script>
+    <script type="text/javascript" src="http://code.jquery.com/ui/1.11.4/jquery-ui.min.js"></script>
+    <script src="/js/calendar.js"></script>
+  </body>
+</html>

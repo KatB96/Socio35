@@ -1,0 +1,1 @@
+function showA(){b.style.filter="alpha(opacity=80)",b.style.opacity=.8,b.style.display="block",a.style.display="block",a.style.top="100px",a.style.left="calc(50% - 250px)"}function hideA(){b.style.display="none",a.style.display="none"}window.onload=function(){a=document.getElementById("a"),b=document.getElementById("b")};

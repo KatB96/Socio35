@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8"/>
+    <base href="/"/>
+    <title>Социо35</title>
+    <meta name="viewport" content="width=device-width"/>
+    <link rel="stylesheet" media="all" href="/css/main_global.css"/>
+    <link rel="stylesheet" media="all" href="/css/pages/platform_ideas.css">
+  </head>
+  <body>
+    <header>
+      <div class="header-content">
+        <p>#социополис<span>35</span></p>
+        <div class="weather">
+          <p>Череповец, -4&#8451;</p>
+          <p>30 ноября, 19:15</p>
+        </div>
+      </div>
+      <div class="menu-content">
+        <ul>
+          <li> <a href="/">Главная</a></li>
+          <li> <a href="/page/page2.html">О проекте</a></li>
+          <li> <a href="/page/page2.html">Контакты</a></li>
+          <li> <a href="/page/page2.html">Поиск</a></li>
+        </ul>
+        <div class="mobile-menu-content">
+          <div aria-hidden="true" class="menu-icon fa fa-bars fa-2x"></div>
+          <ul class="m_menu-content">
+            <li> <a href="/">Главная</a></li>
+            <li> <a href="/page/page2.html">О проекте</a></li>
+            <li> <a href="/page/page2.html">Контакты</a></li>
+            <li> <a href="/page/page2.html">Поиск</a></li>
+          </ul>
+        </div>
+        <p class="logo">#социополис<span>35</span></p>
+      </div>
+    </header>
+    <section style="background:url(../../img/platform_ideas/bg-projects.png); background-repeat: no-repeat; background-size: cover;" class="lat_services">
+      <div class="lat_services-wrap"><a href="/page/platform_ideas/projects.html" class="lat_services-title"><span>Проекты</span></a>
+        <div class="lat_services-content">
+          <div class="lat_services-description"> Здесь Вы можете обсудить с другими пользователями городские и региональные проекты, а также предложить какие-то свои идеи. Если же Вы хотите узнать, что о ней думают другие люди, Вы можете спросить их об этом в <a href="/page/platform_ideas/voting.html">голосовании</a>.</div><a onclick="showA();" class="lat_services-button">Предложить идею</a>
+          <div id="b"></div>
+          <div id="a">
+            <div id="windows"><a onclick="hideA();" style="float: right;" class="pages">X</a>
+              <form class="forma">
+                <h2>ПРЕДЛОЖИТЬ ИДЕЮ</h2>
+                <fieldset>
+                  <p>Сделаем нашу жизнь лучше</p>
+                  <p>Вместе</p>
+                  <input id="header" name="header" type="text" placeholder="Название проекта" required="">
+                  <textarea id="desc" placeholder="Описание проекта"></textarea>
+                  <input type="file" name="add_img" id="add_img" value="Добавить изображение" accept="image/jpeg,image/png" data-buttonText="Добавить изображение">
+                  <div class="lat_services-button">Отправить</div>
+                </fieldset>
+              </form>
+            </div>
+          </div>
+          <div class="lat_services-list"><a href="/page/platform_ideas/project.html" class="square-list"><span> Городской проект "Культурный Череповец"</span></a><a href="/page/platform_ideas/project.html" class="square-list"><span> Городской проект "Культурный Череповец"</span></a><a href="/page/platform_ideas/project.html" class="square-list"><span> Городской проект "Культурный Череповец"</span></a><a href="/page/platform_ideas/project.html" class="square-list"><span> Городской проект "Культурный Череповец"</span></a><a href="/page/platform_ideas/project.html" class="square-list"><span> Городской проект "Культурный Череповец"</span></a><a href="/page/platform_ideas/project.html" class="square-list"><span> Городской проект "Культурный Череповец"</span></a><a href="/page/platform_ideas/project.html" class="square-list"><span> Городской проект "Культурный Череповец"</span></a><a href="/page/platform_ideas/project.html" class="square-list"><span> Городской проект "Культурный Череповец"</span></a>
+          </div>
+          <form method="post" action="project.php">
+            <button name="all_items" type="submit" value="Показать" class="lat_services-button">полный список</button>
+          </form>
+        </div>
+      </div>
+    </section>
+    <footer class="footer">
+      <div class="footer-content">
+        <div class="soc"><a href="https://vk.com/sociopolis35" aria-hidden="true" class="fa fa-vk fa-2x vk"></a><a href="#" aria-hidden="true" class="fa fa-facebook fa-2x facebook"></a><a href="http://www.thepictaram.club/instagram/chsu_media" aria-hidden="true" class="fa fa-instagram fa-2x instagram"></a><a href="#" aria-hidden="true" class="fa fa-twitter fa-2x twitter"></a></div>
+        <div class="footer-menu">
+          <ul>
+            <li><a href="/">Главная</a></li>
+            <li><a href="/page/page2.html">О проекте</a></li>
+            <li><a href="/page/page2.html">Контакты</a></li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+    
+    <script src="/js/all.js"></script>
+    <script src="/js/main.js"></script>
+    <script src="/js/platform_ideas_project.js"></script>
+  </body>
+</html>
